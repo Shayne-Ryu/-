@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_bottom">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/shouye"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/shouye" />
+
+            <ImageButton
+                android:id="@+id/saishizhushou"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/saishizhushou" />
+
+            <ImageButton
+                android:id="@+id/ditudaoyin"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ditudaoyin" />
+
+            <ImageButton
+                android:id="@+id/vrguansai"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/vrguansai" />
+
+            <ImageButton
+                android:id="@+id/wode"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/wode" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_shouye"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#AEAEAE"
+                android:layout_marginLeft="42dp"
+                android:text="首页" />
+            <TextView
+                android:id="@+id/text_saishizhushou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#AEAEAE"
+                android:layout_marginLeft="30dp"
+                android:text="赛事助手" />
+            <TextView
+                android:id="@+id/text_ditudaoyin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#AEAEAE"
+                android:layout_marginLeft="13dp"
+                android:text="地图导引" />
+            <TextView
+                android:id="@+id/text_vrguansai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#AEAEAE"
+                android:layout_marginLeft="20dp"
+                android:text="VR观赛" />
+            <TextView
+                android:id="@+id/text_wode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#AEAEAE"
+                android:layout_marginLeft="33dp"
+                android:text="我的" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
